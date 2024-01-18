@@ -1,0 +1,15 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 230-560-174
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2024 02:30:55] "POST /generate_tickets HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2024 02:31:57] "GET /show_tickets?page=1&tickets_per_page=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2024 02:32:24] "POST /generate_tickets HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2024 02:32:40] "GET /show_tickets?page=1&tickets_per_page=15 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2024 02:33:04] "GET /show_tickets?page=1&tickets_per_page=15 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2024 02:33:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2024 02:33:35] "GET /show_tickets?page=3&tickets_per_page=15 HTTP/1.1" 200 -
+ERROR:root:ValueError: Number of tickets must be greater than zero.
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2024 02:33:59] "[31m[1mPOST /generate_tickets HTTP/1.1[0m" 400 -
